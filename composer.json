@@ -1,0 +1,20 @@
+{
+    "name": "eminetto/silex-sample",
+    "description": "Silex sample",
+    "require": {        
+        "silex/silex": "1.0.*",
+        "symfony/http-kernel": "*",
+        "symfony/browser-kit": "*",
+        "symfony/console": "*",
+        "doctrine/dbal": "*",
+        "doctrine/orm": "*",
+        "twig/twig": ">=1.8,<2.0-dev",    
+        "dflydev/doctrine-orm-service-provider": "1.0.*@dev",  
+        "swiftmailer/swiftmailer": ">=4.1.2,<4.2-dev"
+    },        
+    "autoload": {
+        "psr-4": {
+            "Inovarnaweb\\": "src/Inovarnaweb"
+        }
+    }
+}
